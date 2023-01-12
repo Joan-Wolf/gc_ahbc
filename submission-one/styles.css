@@ -1,0 +1,34 @@
+header {
+    background-color: #551a8b;
+    color: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a:active {
+    color: rgba(255,255,255,0.8);
+}
+a:visited {
+    color: rgba(255,255,255,0.8);
+}
+a:link {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+span {
+    margin-left: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sofia+Sans&display=swap');

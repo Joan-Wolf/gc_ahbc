@@ -61,6 +61,11 @@ button {
     font-weight: bold;
     font-size: 13px;
 }
+#forgot {
+    position: relative;
+    top: -50px;
+    right: -100px;
+}
 
     </style>
 </head>
@@ -72,6 +77,7 @@ button {
         <form id="login-form">
             <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Email">
             <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+            <a id="forgot" href="#">Forgot?</a>"
         <!--I cannot figure out how to get the "Forgot?" in the password field. I got as far as adding a link, but it kept pushing my field out of line-->
         </form>
         <button>Sign In</button>
